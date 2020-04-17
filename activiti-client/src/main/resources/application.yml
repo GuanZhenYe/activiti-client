@@ -2,6 +2,8 @@ spring:
   activiti:
     database-schema-update: true
     jpa-enabled: false
+    check-process-definitions: false
+
   datasource:
     url: jdbc:h2:mem:activiti;DB_CLOSE_DELAY=-1
     driver-class-name: org.h2.Driver
